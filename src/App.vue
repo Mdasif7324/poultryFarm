@@ -6,7 +6,8 @@
       <router-link to="/products">Products</router-link> |
       <router-link to="/contact">Contact</router-link>
       <router-view :key="$route.fullPath" /> -->
-      
+      test data
+
     </nav>
     <router-view />
   </div>
