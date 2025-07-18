@@ -6,6 +6,7 @@
       <router-link to="/products">Products</router-link> |
       <router-link to="/contact">Contact</router-link>
       <router-view :key="$route.fullPath" /> -->
+      
     </nav>
     <router-view />
   </div>
